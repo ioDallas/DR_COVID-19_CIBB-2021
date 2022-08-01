@@ -56,7 +56,7 @@ end
 
 
 % 
-% Y = tsne(dm3);
-% figure;
-% gscatter(Y(:,1),Y(:,2),class)
-% title('RGt-SNE')
+Y = tsne(dm3);
+figure;
+gscatter(Y(:,1),Y(:,2),class)
+title('RGt-SNE')
