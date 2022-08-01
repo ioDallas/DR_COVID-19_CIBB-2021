@@ -1,4 +1,4 @@
-function [dm3, dm1] = rgtsne(data1, rp_spaces, rp_dims, nn, dist_type = 'correlation')
+function [dm3, dm1] = rgtsnecorr(data1, rp_spaces, rp_dims, nn, dist_type = 'correlation')
 % 
 [nr, ncol] = size(data1);
 dm = zeros(nr,nr);
